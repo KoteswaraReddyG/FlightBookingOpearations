@@ -9,8 +9,8 @@ using namespace std;
 
 class Flight
 {
-
 public:
+
 	Flight()
 	{
 		flightNumber = "---";
@@ -45,6 +45,7 @@ public:
 	string flightNumber, oCity, dCity;
 	float airFare;
 	string airOp;
+
 };
 
 
